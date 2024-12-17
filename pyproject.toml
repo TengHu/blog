@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "personal-blog"
+version = "0.1.0"
+description = ""
+authors = ["Teng Hu <hu.niel92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = {extras = ["imaging"], version = "^9.5.49"}
+mkdocstrings = "^0.27.0"
+mkdocstrings-python = "^1.12.2"
+mkdocs-minify-plugin = "^0.8.0"
+mkdocs-redirects = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
