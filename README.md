@@ -24,6 +24,8 @@ Create a professional consulting blog with the MkDocs Material theme.
    ```bash
    mkdocs gh-deploy
    ```
+   In `https://github.com/TengHu/blog/settings/pages`, set custom domain as `nieltenghu.com`
+
 
 ## Tasks to Complete
 
@@ -68,6 +70,10 @@ Maximize content value by addressing:
 - Be specific, not vague.
 - Provide social proof.
 - Use strong CTAs.
+
+## doman name
+
+godaddy
 
 ## Deploy to Github Page
 - https://jinnabaalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef 
