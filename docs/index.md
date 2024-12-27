@@ -1,5 +1,11 @@
-# Services
+## **Hello! I'm Niel Hu**
 
+I am an AI practitioner, consultant, and lifelong learner with a passion for hacking and tinkering. I enjoy sharing insights and connecting with like-minded individuals. 
+
+Connect with me on [X](https://x.com/nieltenghu) or [LinkedIn](https://www.linkedin.com/in/tenghu/), or subscribe to my posts.
+
+
+# Services
 If you're facing any of these challenges, I can help:
 
 - **Scaling Complexity**: Wrestling with AI systems that become increasingly complex and harder to maintain
