@@ -9,6 +9,22 @@ edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2025 Niel Hu
 theme:
   name: material
+  palette: 
+    
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 

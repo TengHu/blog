@@ -78,3 +78,6 @@ godaddy
 ## Deploy to Github Page
 - https://jinnabaalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef 
 - https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
+
+## Newsletter
+- https://app.kit.com/dashboard
