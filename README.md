@@ -24,7 +24,9 @@ Create a professional consulting blog with the MkDocs Material theme.
    ```bash
    mkdocs gh-deploy
    ```
-   In `https://github.com/TengHu/blog/settings/pages`, set custom domain as `nieltenghu.com`
+   In `https://github.com/TengHu/blog/settings/pages`, set custom domain as `nieltenghu.com`.
+   
+   Checkout https://github.com/mkdocs/mkdocs/issues/973#issuecomment-416004739
 
 
 ## Tasks to Complete
