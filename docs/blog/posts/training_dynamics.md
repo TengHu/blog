@@ -15,6 +15,9 @@ After reading the paper, I started wondering: **When humans learn, we typically 
 
 To address the question, I trained a simple fully-connected neural network with a single hidden layer consisting of 8 units on the MNIST dataset. To ensure more reliable and less noisy observations, I incorporated an evaluation step after each iteration. During this step, the network processed the entire training set, performed backpropagation, and recorded the prediction results and gradients of the second fully connected layer (an 8 × 10 matrix) for every example, without updating the network parameters.
 
+<!-- more -->
+
+
 Since feeding the entire MNIST dataset to the network at every iteration significantly increases computational cost, I conducted the experiment using a randomly sampled mini-MNIST dataset, consisting of only 10% of the original MNIST data (6000 examples).
 
 The model was trained using vanilla stochastic gradient descent for 30 epochs, with a batch size of 128 and a learning rate of 0.01. The experiment was repeated ten times using different random seeds.
