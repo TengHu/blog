@@ -128,6 +128,7 @@ markdown_extensions:
 nav:
   - Home: 
     - Introductions: 'index.md'
+    - SMS Consent: 'consent.md'
   - Blog:
     - "blog/index.md"
 plugins:
