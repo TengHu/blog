@@ -1,0 +1,181 @@
+/* Minimal black & white — plain essay layout (Paul Graham–style readability) */
+
+:root {
+  --essay-max: 40rem;
+  --essay-text: #111;
+  --essay-muted: #444;
+  --essay-border: #ddd;
+  --essay-bg: #fff;
+  --md-typeset-font-size: 0.95rem;
+  --md-typeset-line-height: 1.65;
+}
+
+[data-md-color-scheme="default"] {
+  --md-default-fg-color: var(--essay-text);
+  --md-default-fg-color--light: var(--essay-muted);
+  --md-default-fg-color--lighter: #666;
+  --md-default-fg-color--lightest: #888;
+  --md-default-bg-color: var(--essay-bg);
+  --md-primary-fg-color: #000;
+  --md-primary-bg-color: #000;
+  --md-accent-fg-color: #000;
+  --md-accent-bg-color: #e8e8e8;
+  --md-typeset-a-color: #000;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-fg-color: #eaeaea;
+  --md-default-fg-color--light: #ccc;
+  --md-default-bg-color: #111;
+  --md-primary-fg-color: #fff;
+  --md-primary-bg-color: #fff;
+  --md-accent-fg-color: #fff;
+  --md-typeset-a-color: #fff;
+  --essay-text: #eaeaea;
+  --essay-muted: #aaa;
+  --essay-border: #333;
+  --essay-bg: #111;
+}
+
+body {
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+}
+
+/* Flatten colorful badge images to match monochrome aesthetic */
+.md-typeset img[src*="img.shields.io"],
+.md-typeset img[src*="shields.io"] {
+  filter: grayscale(1);
+  opacity: 0.92;
+}
+
+.md-typeset,
+.md-typeset table:not([class]) {
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+}
+
+.md-typeset code,
+.md-typeset pre,
+.md-typeset kbd {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+}
+
+/* Flat chrome */
+.md-header {
+  box-shadow: none !important;
+  background-color: var(--essay-bg) !important;
+  border-bottom: 1px solid var(--essay-border);
+}
+
+.md-header--lifted::after {
+  display: none;
+}
+
+/* Top tabs: flat bar matching minimal theme */
+.md-tabs {
+  background-color: var(--essay-bg) !important;
+  border-bottom: 1px solid var(--essay-border);
+  box-shadow: none !important;
+}
+
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+/* Hamburger (drawer) — sidebar nav is hidden; icon follows the logo in Material */
+.md-header__inner > a.md-logo + label {
+  display: none !important;
+}
+
+.md-main__inner.md-grid {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+/* Drop the duplicate page title in the header; keep site identity via <title> / logo area */
+.md-header__topic[data-md-component="header-topic"] {
+  display: none !important;
+}
+
+/* Essay column: narrow readable measure */
+.md-content__inner.md-typeset {
+  max-width: var(--essay-max);
+}
+
+/* Home page: drop auto-generated title so only the post list shows */
+article.md-content__inner.md-typeset:has(> h1:first-child + ul) > h1:first-child {
+  display: none !important;
+}
+
+/* Links: understated */
+.md-typeset a {
+  color: var(--md-typeset-a-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.md-typeset a:hover,
+.md-typeset a:focus {
+  opacity: 0.75;
+}
+
+.md-typeset a.headerlink {
+  text-decoration: none;
+  opacity: 0.35;
+}
+
+/* CTA classes from markdown — text links, not pills */
+.md-typeset a.primary-button,
+.md-typeset a.secondary-button {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  color: var(--md-typeset-a-color) !important;
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+/* Footer */
+.md-footer {
+  background-color: var(--essay-bg) !important;
+  border-top: 1px solid var(--essay-border);
+}
+
+.md-footer-meta {
+  background-color: transparent !important;
+  color: var(--essay-muted);
+  font-size: 0.8rem;
+}
+
+.md-copyright {
+  color: var(--essay-muted);
+}
+
+.md-social__link {
+  opacity: 0.7;
+}
+
+.md-social__link:hover {
+  opacity: 1;
+}
+
+/* Code: minimal */
+.md-typeset .highlight pre,
+.md-typeset pre {
+  border: 1px solid var(--essay-border);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .highlight pre,
+[data-md-color-scheme="slate"] .md-typeset pre {
+  border-color: var(--essay-border);
+}
+
+/* Search / overlay */
+.md-search__input {
+  border: 1px solid var(--essay-border);
+}

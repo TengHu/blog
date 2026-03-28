@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://nieltenghu.com/</loc>
-         <lastmod>2026-03-26</lastmod>
+         <lastmod>2026-03-28</lastmod>
     </url>
     <url>
          <loc>https://nieltenghu.com/consent/</loc>
-         <lastmod>2026-03-26</lastmod>
+         <lastmod>2026-03-28</lastmod>
+    </url>
+    <url>
+         <loc>https://nieltenghu.com/contact/</loc>
+         <lastmod>2026-03-28</lastmod>
+    </url>
+    <url>
+         <loc>https://nieltenghu.com/introductions/</loc>
+         <lastmod>2026-03-28</lastmod>
     </url>
     <url>
          <loc>https://nieltenghu.com/writing-samples/</loc>
-         <lastmod>2026-03-26</lastmod>
+         <lastmod>2026-03-28</lastmod>
     </url>
     <url>
          <loc>https://nieltenghu.com/blog/</loc>
-         <lastmod>2026-03-26</lastmod>
-    </url>
-    <url>
-         <loc>https://nieltenghu.com/blog/posts/ip_character/</loc>
-         <lastmod>2026-03-26</lastmod>
-    </url>
-    <url>
-         <loc>https://nieltenghu.com/blog/posts/training_dynamics/</loc>
-         <lastmod>2026-03-26</lastmod>
+         <lastmod>2026-03-28</lastmod>
     </url>
 </urlset>
