@@ -1,5 +1,6 @@
 ---
 date: 2022-08-02
+draft: true
 author:
  - me
  # export from  https://medium.com/@hu.niel92/an-empirical-study-of-neural-network-training-dynamics-3bf4b659359e
