@@ -2,6 +2,8 @@
 
 Some lessons from deploying OpenClaw for my team recently.
 
+<!-- more -->
+
 ## What goes wrong
 
 The problem comes from combining persistent memory with multiple users. Once you are in that regime, you are not dealing with one question; you are dealing with several, and they are easy to mix up.
