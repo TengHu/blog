@@ -1,5 +1,6 @@
 ---
 date: 2026-03-29
+slug: memory_and_identity
 draft: false
 author:
   - me

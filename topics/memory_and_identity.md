@@ -55,5 +55,3 @@ One answer is not hard to picture: isolated agents that selectively publish to a
 The problem is that this product story could feel less magical. It takes human effort to decide what to share. And I argue the most valuable knowledge could come from conversations, not documents — preferences, thinking out loud, key observations, intuition, debate, half-formed ideas. One brain, many mouths is valuable, but the value is mostly to the organization, not to the individual. The individual bears the privacy risk and the organization captures the knowledge benefit. That asymmetry drives companies to race toward shared brains.
 
 Most memory systems today still throw chat and docs into the same retrieval pile with no provenance, so “private by default, publish only what you mean to” is hard to enforce in practice.
-
-The open question is whether products will shrink blast radius and slow memory on purpose—or whether “enterprise AI” will mostly mean faster retrieval with a prettier audit log.
