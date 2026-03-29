@@ -96,9 +96,9 @@ body {
   display: none !important;
 }
 
-/* Keep the site name next to the logo readable (same row as logo). */
-.md-header__title .md-header__topic:not([data-md-component="header-topic"]) .md-ellipsis {
-  font-weight: 600;
+/* Home: hide auto-generated “Posts” h1 when the page is only a list */
+article.md-content__inner.md-typeset:has(> h1:first-child + ul) > h1:first-child {
+  display: none !important;
 }
 
 /* Essay column: narrow readable measure */
