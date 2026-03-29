@@ -3,6 +3,4 @@ title: Posts
 description: Writing
 ---
 
-- *Notes on building reliable LLM pipelines — coming soon*
-- *On evaluation metrics — coming soon*
-- *Untitled — coming soon*
+- [Memory, identity, and multi-user agents](blog/2026/03/29/memory_and_identity/) — Some lessons from deploying OpenClaw for my team.

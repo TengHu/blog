@@ -1,6 +1,20 @@
+---
+date: 2026-03-29
+draft: false
+author:
+  - me
+comments: true
+tags:
+  - agents
+  - AI
+  - memory
+---
+
 # Memory, identity, and multi-user agents
 
 Some lessons from deploying OpenClaw for my team recently.
+
+<!-- more -->
 
 ## What goes wrong
 
