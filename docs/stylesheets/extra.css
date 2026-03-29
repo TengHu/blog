@@ -91,19 +91,19 @@ body {
   grid-template-columns: minmax(0, 1fr) !important;
 }
 
-/* Drop the duplicate page title in the header; keep site identity via <title> / logo area */
+/* Hide the duplicate current-page label in the header (site name stays in the first line). */
 .md-header__topic[data-md-component="header-topic"] {
   display: none !important;
+}
+
+/* Keep the site name next to the logo readable (same row as logo). */
+.md-header__title .md-header__topic:not([data-md-component="header-topic"]) .md-ellipsis {
+  font-weight: 600;
 }
 
 /* Essay column: narrow readable measure */
 .md-content__inner.md-typeset {
   max-width: var(--essay-max);
-}
-
-/* Home page: drop auto-generated title so only the post list shows */
-article.md-content__inner.md-typeset:has(> h1:first-child + ul) > h1:first-child {
-  display: none !important;
 }
 
 /* Links: understated */
